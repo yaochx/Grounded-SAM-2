@@ -52,7 +52,7 @@ Grounded SAM 2 does not introduce significant methodological changes compared to
 Download the pretrained `SAM 2` checkpoints:
 
 ```bash
-cd checkpoints
+cd sam2/checkpoints
 bash download_ckpts.sh
 ```
 
@@ -80,7 +80,7 @@ export CUDA_HOME=/path/to/cuda-12.1/
 Install `Segment Anything 2`:
 
 ```bash
-pip install -e .
+pip install -e sam2
 ```
 
 Install `Grounding DINO`:
